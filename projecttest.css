@@ -1,0 +1,37 @@
+body{
+    background-color: #f5d9d5;
+}
+#submitbutton:hover{
+background-color:green;
+}
+#form{
+    justify-content:center;
+    transition:margin-left 3s;
+}
+article div {
+  height:30px;
+  width:30px;
+  background-color:red;
+  transition:margin-left 3s;
+}
+ article:hover  div{ 
+   margin-left:1000px;
+ }
+  div:nth-of-type(1){
+    transition-timing-function:ease-in;}
+div:nth-of-type(2){
+    transition-timing-function:ease-out;}
+div:nth-of-type(3){
+    transition-timing-function:cubic-bezier(0.7,0,0.87,0);}
+div:nth-of-type(4){
+    transition-timing-function:cubic-bezier(0.85,0,0.15,1);}
+  
+}
+body {
+    padding-top: 60px;
+  }
+  @media (max-width:400px) {
+    body {
+      padding-top: 0px;
+    }
+  }
