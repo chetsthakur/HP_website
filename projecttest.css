@@ -7,6 +7,13 @@ background-color:green;
 #form{
     justify-content:center;
     transition:margin-left 3s;
+    width:700px;
+    height:300px;
+    border:2px solid black;
+    border-radius:10px;
+    margin-left:100px;
+    padding:20px;
+    margin-bottom:30px;
 }
 article div {
   height:30px;
@@ -26,7 +33,6 @@ div:nth-of-type(3){
 div:nth-of-type(4){
     transition-timing-function:cubic-bezier(0.85,0,0.15,1);}
   
-}
 body {
     padding-top: 60px;
   }
@@ -35,3 +41,4 @@ body {
       padding-top: 0px;
     }
   }
+  {}
